@@ -26,7 +26,7 @@ ___
 
 - нескольких неработающих ссылок
 
-<img src="www.schukin.info/images/image-20231219205358418.png"/>
+<img src="/www.schukin.info/images/image-20231219205358418.png"/>
 
 - проблем со скриптом
 
