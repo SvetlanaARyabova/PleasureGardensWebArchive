@@ -26,11 +26,11 @@ ___
 
 - нескольких неработающих ссылок
 
-![image-20231219205358418](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231219205358418.png)
+[image-20231219205358418](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231219205358418.png)
 
 - проблем со скриптом
 
-![image-20231219205641241](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231219205641241.png)
+[image-20231219205641241](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231219205641241.png)
 
 - недостаточно высокой скорости ответа сайта
 
