@@ -60,7 +60,7 @@ Cамый низкий процент у показателя **согласов
 
 Показатель по **метаданным (Metadata)** составляет **100%**
 
-[К оглавлению](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#оглавление)
+[К оглавлению](#оглавление)
 
 ------
 
