@@ -18,26 +18,26 @@
 Самый низкий процент у показателя **Accessibility** или доступности, он составляет **63%** по следующим причинам:
 
 - неработающих ссылок на внешние ресурсы
-
-![image-20231220232516274](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220232516274.png)
+  
+<img src="/www.vauxhallgardens.com/images/image-20231220232516274.png"/>
 
 - нехватки файла с картой сайта (sitemap),  защиты доступа для автоматических систем (роботов)
 
-![image-20231220232654326](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220232654326.png)
+<img src="/www.vauxhallgardens.com/images/image-20231220232654326.png"/>
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **73%**. Снижение процентов происходит из-за несоответствия кода страницы принятым стандартам.
 
 - несоответствия в коде HTML
-
-![image-20231220232805533](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220232805533.png)
+  
+<img src="/www.vauxhallgardens.com/images/image-20231220232805533.png"/>
 
 - найдены ошибки воспроизведения изображений:
+  
+<img src="/www.vauxhallgardens.com/images/image-20231220232858937.png"/>
 
-![image-20231220232858937](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220232858937.png)
+Показатели **согласованности (Cohesion) и **метаданных (Metadata)** составляют **100%**
 
-Показатель **согласованности (Cohesion) — 100% **метаданных (Metadata)** составляет **100%**
-
-[К оглавлению](https://github.com/SvetlanaARyabova/PleasureGardensWebArchive/blob/main/americanpleasuregardens.com/aboutarchive.md#оглавление)
+[К оглавлению](#оглавление)
 
 ------
 
@@ -47,34 +47,34 @@
 
 Архив был проанализирован с помощью команды `-analyze` в полученном ответе команды в последней строке подсчитывается общее  количество файлов, размер архива в байтах. В перечне типов файлов  перечислены все встречающиеся в архиве типы данных, указано количество  файлов каждого типа, их общий размер и процент от общего объема.
 
-![image-20231220233226662](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220233226662.png)
+<img src="/www.vauxhallgardens.com/images/image-20231220233226662.png"/>
 
 Судя по анализу сайта можно сказать, что большую часть архива составляют изображения (55%) и текст (45%).
 
 С помощью утилиты Metawarc была также команда `-index`, записывающая все метаданные в базу данных. Записано 100% файлов.
 
-![image-20231220233446939](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220233446939.png)
+<img src="/www.vauxhallgardens.com/images/image-20231220233446939.png"/>
 
 С помощью команды `metawarc stats -m mimes` проанализирован размер, типы данных и их кодировки.
 
-![image-20231220233542303](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220233542303.png)
+<img src="/www.vauxhallgardens.com/images/image-20231220233542303.png"/>
 
 Из получившейся таблицы видно, что больше всего используется язык HTML.
 
 При анализе архива с помощью команды `metawarc stats -m exts`, видим, что для текстовых файлов использован язык html, a изображения в формате jpg.
 
-![image-20231220233707175](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220233707175.png)
+<img src="/www.vauxhallgardens.com/images/image-20231220233707175.png"/>
 
-[К оглавлению](https://github.com/SvetlanaARyabova/PleasureGardensWebArchive/blob/main/americanpleasuregardens.com/aboutarchive.md#оглавление)
+[К оглавлению](#оглавление)
 
 ------
 
 ## Просмотр архива
 
-При просмотре архива с помощью расширения [Replay Web Page](https://replayweb.page/) открывается главная страница, корректно работает переход по разделам  сайта. 
+При просмотре архива с помощью расширения [Replay Web Page](https://replayweb.page/) открывается главная страница, корректно работает переход по разделам  сайта.
 
-![image-20231220234110263](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220234110263.png)
+<img src="/www.vauxhallgardens.com/images/image-20231220234110263.png"/>
 
 Возникает ошибка при переходе на внешние сайты, где размещен представленный контент
 
-[К оглавлению](https://github.com/SvetlanaARyabova/PleasureGardensWebArchive/blob/main/americanpleasuregardens.com/aboutarchive.md#оглавление)
+[К оглавлению](#оглавление)
