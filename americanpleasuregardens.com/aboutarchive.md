@@ -4,10 +4,10 @@
 
 ### Оглавление:
 
-- [*описание архива*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#описание)
-- [*анализ архивируемости*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#анализ-архивабилити)
-- [*анализ архива*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#анализ-архива)
-- [*просмотр архива*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#просмотр-архива)
+- [*описание архива*](#описание) 
+- [*анализ архивируемости*](#анализ-архивабилити) 
+- [*анализ архива*](#анализ-архива)
+- [*просмотр архива*](#просмотр-архива)
 
 ## 
 
