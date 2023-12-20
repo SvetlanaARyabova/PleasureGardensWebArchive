@@ -1,1 +1,108 @@
+# Архив сайта "American pleasure gardens" https://americanpleasuregardens.com    
 
+### 
+
+### Оглавление:
+
+- [*описание архива*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#описание)
+- [*анализ архивируемости*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#анализ-архивабилити)
+- [*анализ архива*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#анализ-архива)
+- [*просмотр архива*](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#просмотр-архива)
+
+## 
+
+## Описание
+
+Архив содержит снимок всех страниц сайта **"American pleasure gardens"** по состоянию на 18.12.2023. Размер архивного файла составляет **936 Кб**. Кроме самого архивного файла при создании архива записаны файлы индексов, логов и файл базы данных сайта.
+
+------
+
+## 
+
+## Анализ архивируемости
+
+Перед архивацией с помощью инструмента [ArchiveReady](https://archiveready.com/) был проведен анализ сайта. При предварительной оценке архивируемости перед архивацией были определены потенциально проблемные моменты. Общая оценка архивируемости сайта составила **60%**;
+
+Cамый низкий процент у показателя **согласованности (Cohesion) — 0%** Показатель снижен из-за
+
+- несоответствия в коде CSS
+
+<img src="/americanpleasuregardens.com/images/image-20231220164753999.png"/>
+
+- ссылок на внешние скрипты, изображения, размещенные на внешних ресурсах
+
+<img src="/americanpleasuregardens.com/images/image-20231220164853680.png"/>
+<img src="/americanpleasuregardens.com/images/image-20231220165140506.png"/>
+
+**Accessibility** или доступность составляет **61%** по следующим причинам:
+
+- неработающих ссылок на внешние ресурсы
+
+<img src="/americanpleasuregardens.com/images/image-20231220165414815.png"/>
+
+- встроенных элементов скрипта
+<img src="/americanpleasuregardens.com/images/image-20231220165519905.png"/>
+
+- низкой скорости ответа сайта
+<img src="/americanpleasuregardens.com/images/image-20231220165704514.png"/>
+
+- нехватки файла с картой сайта (sitemap),  защиты доступа для автоматических систем (роботов)
+<img src="/americanpleasuregardens.com/images/image-2023122016582073.png"/>
+
+Процент **соответствия стандартам (Standards Compliance)** составляет **77%**. Снижение процентов происходит из-за несоответствия кода страницы принятым стандартам.
+
+- несоответствия в коде CSS и HTML
+<img src="/americanpleasuregardens.com/images/image-20231220170329717.png"/>
+
+<img src="/americanpleasuregardens.com/images/image-20231220170456265.png"/>
+
+<img src="/americanpleasuregardens.com/images/image-20231220170524947.png"/>
+
+Показатель по **метаданным (Metadata)** составляет **100%**
+
+[К оглавлению](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#оглавление)
+
+------
+
+## 
+
+## Анализ архива
+
+Архивный файл был проанализирован с помощью утилиты командной строки, созданной для задач цифрового дознания, сбора данных из архивов веб-сайтов — [Metawarc](https://github.com/datacoon/metawarc)
+
+Архив был проанализирован с помощью команды `-analyze` в полученном ответе команды в последней строке подсчитывается общее количество файлов, размер архива в байтах. В перечне типов файлов перечислены все встречающиеся в архиве типы данных, указано количество файлов каждого типа, их общий размер и процент от общего объема.
+
+<img src="/americanpleasuregardens.com/images/image-20231220170728219.png"/>
+
+Судя по анализу сайта можно сказать, что большую часть архива ~ 66% составляет текст, 17% составляют изображения.
+
+С помощью утилиты Metawarc была также команда `-index`, записывающая все метаданные в базу данных. Записано меньше 100% файлов.
+
+<img src="/americanpleasuregardens.com/images/image-20231220171312744.png"/>
+
+С помощью команды `metawarc stats -m mimes` проанализирован размер и количество каждого типа [маймов](https://ru.wikipedia.org/wiki/MIME).
+
+<img src="/americanpleasuregardens.com/images/image-20231220171438337.png"/>
+
+Их получившейся таблицы видно, что типы текстовых данных расписаны не только по форматам, но указаны также кодировки текста, что может быть полезно в случае извлечения и сохранения текста отдельно от контента сайта.
+
+При анализе архива с помощью команды `metawarc stats -m exts`, видим, что показатели отличаются. У большей части файлов расширение не определено.
+<img src="/americanpleasuregardens.com/images/image-20231220171632691.png"/>
+
+[К оглавлению](https://github.com/AMitiukova/MuseumWebArchive/blob/main/pavlovskmuseum.ru/about archive.md#оглавление)
+
+------
+
+## 
+
+## Просмотр архива
+
+При просмотре архива с помощью расширения [Replay Web Page](https://replayweb.page/) открывается главная страница, корректно работает переход по разделам сайта. Не везде сохранилось корректное форматирование. При переходе по разделам меню сталкиваемся с тем, что многие картинки не отображаются.
+
+<img src="/americanpleasuregardens.com/images/image-2023122017201340.png"/>
+
+Возникает ошибка при переходе на внешние сайты, где  размещен представленный контент
+
+<img src="/americanpleasuregardens.com/images/image-20231220172203884.png"/>
+
+Это подтверждает предусмотренные анализом ошибки при  архивировании сайтов со ссылками на контент, размещенный на внешних  источниках.
