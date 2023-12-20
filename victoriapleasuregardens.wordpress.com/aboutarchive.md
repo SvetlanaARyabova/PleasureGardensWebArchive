@@ -47,7 +47,7 @@
 
 Показатель по **метаданным (Metadata)** составляет **100%**
 
-[К оглавлению](https://github.com/SvetlanaARyabova/PleasureGardensWebArchive/blob/main/americanpleasuregardens.com/aboutarchive.md#оглавление)
+[К оглавлению](#оглавление)
 
 ------
 
@@ -73,7 +73,7 @@
 
 ![image-20231220224233824](C:\Users\nefer\AppData\Roaming\Typora\typora-user-images\image-20231220224233824.png)
 
-[К оглавлению](https://github.com/SvetlanaARyabova/PleasureGardensWebArchive/blob/main/americanpleasuregardens.com/aboutarchive.md#оглавление)
+[К оглавлению](#оглавление)
 
 ------
 
@@ -89,4 +89,4 @@
 
 Это подтверждает предусмотренные анализом ошибки при   архивировании сайтов со ссылками на контент, размещенный на внешних   источниках.
 
-[К оглавлению](https://github.com/SvetlanaARyabova/PleasureGardensWebArchive/blob/main/americanpleasuregardens.com/aboutarchive.md#оглавление)
+[К оглавлению](#оглавление)
