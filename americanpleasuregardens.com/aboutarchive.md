@@ -47,7 +47,7 @@ Cамый низкий процент у показателя **согласов
 <img src="/americanpleasuregardens.com/images/image-20231220165704514.png"/>
 
 - нехватки файла с картой сайта (sitemap),  защиты доступа для автоматических систем (роботов)
-<img src="/americanpleasuregardens.com/images/image-2023122016582073.png"/>
+<img src="/americanpleasuregardens.com/images/image-20231220165820736.png"/>
 
 Процент **соответствия стандартам (Standards Compliance)** составляет **77%**. Снижение процентов происходит из-за несоответствия кода страницы принятым стандартам.
 
